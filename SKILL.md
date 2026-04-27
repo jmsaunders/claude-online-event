@@ -18,22 +18,24 @@ Ask: "Webinar or podcast episode?"
 
 ## Step 2: Collect specifics
 
-**If podcast episode**, ask for:
-- Guest name and organisation
-- Episode topic or focus
-- Target recording date (if known)
-- Any source material URLs (case studies, previous talks, write-ups)
-- Who will the hosts be? Include all hosts using comma separation.
-- Who are your social media contacts? (This is often Amber and Ryan) List names using comma separation.
+Ask each question individually. Wait for the answer before asking the next one.
 
-**If webinar**, ask for:
-- Speaker name and organisation
-- Topic
-- Target date (if known)
-- Format: demo, customer story, Q&A interview, panel, or combination
-- Any source material URLs (case studies, previous talks, write-ups)
-- Who will the hosts be? Include all hosts using comma separation.
-- Who are your social media contacts? (This is often Amber and Ryan) List names using comma separation.
+**If podcast episode**, ask in this order:
+1. "What is the guest's name and organisation?"
+2. "What is the episode topic or focus?"
+3. "Do you have a target recording date?"
+4. "Do you have any source material URLs — case studies, previous talks, write-ups?"
+5. "Who will the hosts be? List all hosts separated by commas."
+6. "Who are your social media contacts? List names separated by commas."
+
+**If webinar**, ask in this order:
+1. "What is the speaker's name and organisation?"
+2. "What is the topic?"
+3. "Do you have a target date?"
+4. "What is the format — demo, customer story, Q&A interview, panel, or a combination?"
+5. "Do you have any source material URLs — case studies, previous talks, write-ups?"
+6. "Who will the hosts be? List all hosts separated by commas."
+7. "Who are your social media contacts? List names separated by commas."
 
 ## Step 3: Confirm folder name and location
 
