@@ -41,9 +41,19 @@ Ask each question individually. Wait for the answer before asking the next one.
 
 Propose a folder name based on what you've collected (e.g. `DB-Schenker-Webinar` or `Jane-Smith-Episode`). Confirm with the user before creating anything. Create the folder in the current working directory.
 
-## Step 4: Create the files
+## Step 4: Fetch source material
 
-Use any source material provided to make issue descriptions specific — not generic. Someone should be able to pick up any issue and know exactly what to do without needing additional context. If a GitLab issue URL is provided, include it at the top of the META file.
+If any source material URLs were provided, fetch each one using curl via Bash before writing any files:
+
+```
+curl -s "URL"
+```
+
+Use the returned content to make issue descriptions specific — not generic. Do not skip this step or rely on prior knowledge alone.
+
+## Step 5: Create the files
+
+Use the fetched source material to make issue descriptions specific. Someone should be able to pick up any issue and know exactly what to do without needing additional context. If a GitLab issue URL is provided, include it at the top of the META file.
 
 Every issue file — without exception — must open with this tracker block and close with these AI usage checkboxes.
 
