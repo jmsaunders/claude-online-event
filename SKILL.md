@@ -24,7 +24,7 @@ Ask each question individually. Wait for the answer before asking the next one.
 1. "What is the guest's name and organisation?"
 2. "What is the episode topic or focus?"
 3. "Do you have a target recording date?"
-4. "Do you have any source material URLs — case studies, previous talks, write-ups?"
+4. "Do you have any source material — URLs, or paths to local .md files?"
 5. "Who will the hosts be? List all hosts separated by commas."
 6. "Who are your social media contacts? List names separated by commas."
 
@@ -33,7 +33,7 @@ Ask each question individually. Wait for the answer before asking the next one.
 2. "What is the topic?"
 3. "Do you have a target date?"
 4. "What is the format — demo, customer story, Q&A interview, panel, or a combination?"
-5. "Do you have any source material URLs — case studies, previous talks, write-ups?"
+5. "Do you have any source material — URLs, or paths to local .md files?"
 6. "Who will the hosts be? List all hosts separated by commas."
 7. "Who are your social media contacts? List names separated by commas."
 
@@ -43,13 +43,12 @@ Propose a folder name based on what you've collected (e.g. `DB-Schenker-Webinar`
 
 ## Step 4: Fetch source material
 
-If any source material URLs were provided, fetch each one using curl via Bash before writing any files:
+If any source material was provided, read all of it before writing any files. For each item:
 
-```
-curl -s "URL"
-```
+- If it is a URL, fetch it using curl via Bash: `curl -s "URL"`
+- If it is a local file path, read it using the Read tool
 
-Use the returned content to make issue descriptions specific — not generic. Do not skip this step or rely on prior knowledge alone.
+Both types may be present in the same run — process all of them. Use the content to make issue descriptions specific — not generic. Do not skip this step or rely on prior knowledge alone.
 
 ## Step 5: Create the files
 
